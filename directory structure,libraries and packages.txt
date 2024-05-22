@@ -1,0 +1,19 @@
+Directory Structure of a Flask Web Application
+Ensure your project directory is structured as follows:
+my_flask_app/
+│
+├── sin.py
+├── templates/
+│   ├── index.html
+│   ├── register.html
+│   ├── login.html
+│   └── profile.html
+
+
+Libraries and Packages Used:
+
+Flask: Web framework for building web applications.
+Flask-SQLAlchemy: SQL toolkit and Object-Relational Mapping (ORM) for Flask.
+Flask-Login: User session management for Flask.
+Flask-WTF: Forms and validations for Flask.
+Werkzeug: Security utilities for password hashing.
